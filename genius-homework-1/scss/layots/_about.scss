@@ -1,0 +1,24 @@
+.about-section{
+    &__page{
+        // font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 21px;    
+    }
+    &__title{
+        color: $Dodger-Blue;
+        font-family: 'Play', sans-serif;
+            font-size: 140px;
+            font-weight: 400;
+            line-height: 114px;
+            text-transform: capitalize;
+    }
+    &__button{
+        background: $Dodger-Blue;
+        color: $white;
+        border: none;
+    }
+    &__pages{
+        color: $Charcoal;
+    }
+}

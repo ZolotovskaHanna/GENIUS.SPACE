@@ -1,0 +1,26 @@
+.footer{
+    background: $Sapphire;
+    &__menu{
+        &-link{
+            color: $white;
+            text-decoration: none;
+            transition: color 0.3s;
+            &:hover {
+                color: $Dodger-Blue;
+            }
+        }
+    }
+    &__address{
+        &-link {
+            color: $white;
+            text-decoration: none;
+            transition: color 0.3s;
+            &:hover {
+                color: $Dodger-Blue;
+            }
+        }
+        &-copyright{
+            color: $Dim-Gray;
+        }
+    }
+}

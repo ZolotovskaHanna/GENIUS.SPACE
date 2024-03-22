@@ -1,0 +1,19 @@
+header{
+  background: $bg;
+  backdrop-filter: blur(5px);
+  &__container {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+  // &__nav{
+
+  // }
+  // &__menu{
+
+  // }
+  // &__social{
+  
+  // }
+}
+

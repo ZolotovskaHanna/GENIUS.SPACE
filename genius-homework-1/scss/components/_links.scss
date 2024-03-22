@@ -1,0 +1,16 @@
+.link {
+    color: $Sapphire;
+    text-decoration: none;
+    transition: color 0.3s;
+
+    &:hover {
+        color: $Dodger-Blue;
+    }
+}
+
+// .svg {
+//     fill: $Sapphire;
+//     &:hover {
+//     stroke: $Dodger-Blue;
+//     }
+// }

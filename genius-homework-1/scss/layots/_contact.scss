@@ -1,0 +1,35 @@
+.contact-section{
+    &__form{
+        background-color: $Sapphire;
+        &-field{
+            color: $white;
+        }
+    }
+    &__page{
+        color: $white;
+    }
+    &__button{
+        background-color: $Dodger-Blue;
+        color: $white;
+        border: none;
+    }
+    &__button:hover {
+        background-color: #403BD8;
+    }
+}
+
+.input__control {
+    border: 2px solid $Dim-Gray;
+    border-radius: 32px;
+    background-color: $Sapphire;
+    &::placeholder {
+            color: $white;
+    }
+}
+
+.form-terms{
+    color: $Dim-Gray;
+    &__link{
+       color: $Dim-Gray;
+    } 
+}

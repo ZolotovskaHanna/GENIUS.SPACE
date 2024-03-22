@@ -1,0 +1,18 @@
+.procedures-section{
+    &__prev,
+    &__next {
+       fill: $Sapphire;
+        background-color: white;
+        border: none;
+        &:hover {
+        stroke: $Dodger-Blue;
+        }
+    }
+}
+
+.procedures-card{
+    &__page{
+        color: $white;
+    }
+}
+
